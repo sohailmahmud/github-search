@@ -2,8 +2,6 @@
 
 Simple app using the Flutter [`SearchDelegate`](https://api.flutter.dev/flutter/material/SearchDelegate-class.html) class to show a list of users matching the input search query:
 
-![](media/github-search-flutter-screenshot.png)
-
 The app uses `switchMap` & `debounce` from RxDart for a good user experience, without putting too much load on the server, or compromising bandwidth and battery life on the client.
 
 Simple architecture diagram:
